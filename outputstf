@@ -1,0 +1,8 @@
+output "vpc_id" {
+  description = "ID of project VPC"
+  value       = aws_vpc.my_vpc.id
+}
+
+output "instance_id" {
+  value = aws_instance.server.id
+}
