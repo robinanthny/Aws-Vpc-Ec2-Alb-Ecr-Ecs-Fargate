@@ -26,7 +26,7 @@ variable "alb" {
 }
 
 variable "alb_tls_cert_arn" {
-   default = "arn:aws:acm:us-east-2:332395446525:certificate/67706f47-ddb1-49e8-9c7b-a9435a6f7387"
+   default = ""
 }
 
 #variable "health_check_path" {
